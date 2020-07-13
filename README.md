@@ -4,9 +4,10 @@
 The Mr.Coffee company called on you because it wants to expand its visibility on the internet. They initially wanted to go for a WordPress website but, after giving it some thought, they ask you to create a simple website from scratch.
 
 This simple website will be made of three pages: 
-A home page which will be the homepage; it will present the activity of the Mr.Coffee company,
-An "About Us" page that will introduce the concept and values behind  Mr.Coffee,
-A "Contact Us" page which will display all of Mr.Coffee's contact information (address, email, telephone).
+
+- A home page which will be the homepage; it will present the activity of the Mr.Coffee company,
+- An "About Us" page that will introduce the concept and values behind  Mr.Coffee,
+- A "Contact Us" page which will display all of Mr.Coffee's contact information (address, email, telephone).
 
 In order to build this project, the design team sent you visuals, which they ask you to respect perfectly.
 A beautiful site is good, but a beautiful site that ranks well in search engines is better! Mr.Coffee therefore asks you to apply appropriate SEO principles in your development.
