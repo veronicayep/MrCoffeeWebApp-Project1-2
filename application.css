@@ -1,0 +1,773 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&family=Tajawal:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Noto+Sans:wght@400;700&family=Work+Sans:wght@500&display=swap');
+body {
+  background-color: rgb(245,245,245);
+  margin: 0;
+  font-family: 'Tajawal', sans-serif;
+  color:rgb(92,91,91);
+  height:100%;
+
+}
+
+/* -------------------------------------------------nav------------------------------------------------------ */
+/* Style the navigation bar */
+header {
+  background-color: rgb(106, 123, 139);
+  overflow: auto;
+  width: 100%;
+  height: 100px;
+  top: 0px;
+  left: 0px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav li {
+  float: right;
+  padding: 17px 16px;
+  list-style: none;
+  padding-right: 50px;
+}
+.topnav a{
+  color: rgb(245,245,245);
+  text-decoration: none;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(245,245,245);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: rgb(245,245,245);
+}
+
+.logo_white img{
+  float:left;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 160px;
+}
+
+.logo_dark {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.logo_dark img{
+  width:200px;
+}
+/* ------------------------------------------------- End of nav------------------------------------------------- */
+
+/* ------------------------------------------------footer-------------------------------------------------- */
+/* Style the footer */
+footer {
+  background-color: rgb(106, 123, 139);
+  width: 100%;
+  height: 150px;
+  bottom:0px;
+  text-align: center;
+  color:rgb(245,245,245);
+  font-size: relative;
+  display:table;
+}
+
+.footerlogo {
+  float:left;
+  position:absolute;
+  padding-left: 40px;
+  margin-top: 3em;
+}
+
+
+.footerlogo img{
+  width: 15em;
+}
+
+
+footer .social img{
+  
+  margin-right: 30px;
+  width: 40px;
+}
+footer .social h6{
+  font-size: 1em;
+}
+/* --------------------------------------------- end of footer-------------------------------------------------- */
+
+/*--------------------------------------------------- Index----------------------------------------------------- */
+.containerWrapper {
+border:1px;
+padding:10px;
+width: 80vw;
+margin: 0 auto;
+
+}
+.container-1 {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background: url("./assets/mr_coffee_room.jpg");
+  background-size: cover;
+  height: 80vh; /* Relative to 1% of the height of the viewport* */
+  margin: 20px;
+}
+
+.container-1 h1{
+  color:rgb(245,245,245);
+  text-shadow: 2px 2px 8px black;
+  font-size:  350%;
+  font-weight: bold;
+  position: absolute;  
+  top: 60%;                         /* vertical alignment */
+}
+ h2{
+  color:rgb(92,91,91);
+  font-size:350%;
+  font-weight: bold;
+  text-align: center; 
+  left: 25%;                        /* horizontal alignment */
+  top: 10%;                         /* vertical alignment */
+}
+.container-1 img{
+  display:block;
+  width: 1500px;
+}
+
+.boxGrid{
+
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+.box{
+  flex:0 0 20%;
+  background-color: rgb(186,193,200);
+  border:2px solid rgb(186,193,200);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  box-shadow: 2 2 9px;
+}
+
+.box h1{
+  color: rgb(245,245,245);
+  text-shadow: 2px 2px 10px black;
+}
+
+.box p{
+  text-align: center;
+  font-size: x-large;
+  color:rgb(245,245,245)
+
+}
+
+.box img, .container-3 img{
+  width:170px;
+}
+.container-2{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  margin-top: 100px;
+}
+
+.container-2 h3{
+  border-radius: 25px; 
+  font-size: 200%;
+  background: rgb(106, 123, 139);
+  width: 450px;
+  height: 100px;
+  color:rgb(245,245,245); 
+  display:inline-block;
+}
+
+.container-3 img, .container-3 h4{
+  display:inline-flex;
+}
+.container-3 img{
+  margin-top:30px;
+}
+
+.boxGrid-2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2{
+  flex:0 0 50%;
+}
+
+h4{
+   font-size:40px;
+}
+span{
+  font-family: 'Tajawal', sans-serif;
+  color:rgb(92,91,91);
+  font-size:40px;
+  font-weight: 700;
+}
+
+.containerWrapper .boxGrid-2 p{
+  font-family: 'Work Sans',sans-serif;
+  font-size: 35px;
+} 
+.center-normal{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+  
+.center-bold{
+  font-size:40px;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+/*-------------------------------------------- End of Index--------------------------------------------------- */
+
+/*------------------------------------------------------- About ---------------------------------------------- */
+.about-content{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align:left;
+  align-items:center;
+  justify-content:center;
+}
+
+.content-box{
+  flex:0 0 48%;
+}
+
+.content-box img{
+  width: 600px;
+}
+
+.content-box .coffee-image{
+  float:right;
+}
+
+.header-about p{
+  font-size:50px;
+  text-align: left;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+}
+
+.paragraph-about p{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 25px;
+}
+/*---------------------------------------------- End of About------------------------------------------------ */
+
+/*------------------------------------------- Contact-------------------------------------------------------- */
+.contact-content {
+  text-align:left;
+  margin-left: 20%;
+  
+}
+
+.center-header h1{
+  font-size:40px;
+  text-align: center;
+  font-weight: 500;
+  margin-left:-25%;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.contact-content h2{
+  text-align: left;
+  font-size: 40px;
+}
+.contact-details h3{
+  text-align: left;
+  font-weight: 500;
+  font-size: 35px;
+  font-family: 'Work Sans', sans-serif;
+}
+.contact-content img{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 1000px;
+}
+/*-------------------------------------------End of Contact----------------------------------------------------- */
+/*----------------------------------------------Form------------------------------------------------------------ */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=tel],select, textarea {
+
+  width: 65%;
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  
+}
+
+input[type=text], input[type=tel], textarea{
+
+  background-color: rgb(196, 202, 208); /* change input area background color */
+  font-size: 25px;
+
+}
+
+label{
+
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+
+  background-color: rgb(106, 123, 139);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgb(67, 81, 94);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: rgb(196, 202, 208);
+  padding: 20px;
+
+}
+
+.requiredField {
+  display:none;
+  color: red;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/*----------------------------------------------End of Form------------------------------------------------ */
+/*----------------------------------------------popup------------------------------------------------------ */
+.popup-container{
+  display:none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255,255,255,0.7);
+  position:fixed;
+  top:0;
+  margin-left:-20%;
+}
+
+.popup-content{
+  width:55%;
+  height:40em;
+  overflow: hidden;
+  background:rgb(245,245,245);
+  box-shadow:0 0 20px black;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup-content img{
+  padding:4em ;
+  width: 6em;
+  position:absolute;
+  left: 0;
+}
+.popup-header {
+  padding-top: 0.7em;
+  font-size: 3em;
+}
+.popup-text{
+  margin-left: 6em;
+  margin-right: 3em;
+  text-align: left;
+}
+p{
+  font-size: 1.8em;
+}
+.button {
+  border-radius: 10px; 
+  background: rgb(106, 123, 139);
+  width: 10em;
+  height: 2em;
+  color:rgb(245,245,245); 
+  display:inline-block;
+  text-align: center;
+  font-size: 2em;
+}
+.button:hover {
+  background-color:rgb(67, 81, 94);
+  cursor: pointer;
+}
+
+/*------------------------------------------------End of popup------------------------------------------------- */
+/*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+/* ----------------------------------------------------Ipad Resolution------------------------------------------ */
+
+@media(max-width:1024px){
+
+  /* -----footer---- */
+  footer h6{
+    font-size: 15px;
+  }
+  .footerlogo img{
+    width: 150px;
+  }
+
+  /* -----index----- */
+  .container-1 h1{
+  font-size:200%;
+  }
+  h2{
+    font-size:200%;
+  }
+  .box h1{
+    font-size: 150%;
+  }
+  .box2 p{
+    font-size: 120%;
+  }
+
+  .box p{
+    font-size: 100%;
+  }
+
+  .container-2 h3{
+    font-size: 150%;
+    border-radius: 10px; 
+    width: 250px;
+    height: 50px;
+  }
+  h4{
+    font-size:150%;
+  }
+  .containerWrapper .boxGrid-2 p{
+    font-size: 150%;
+  }
+  span{
+    font-size: 100%;
+  }
+  .box img, .container-3 img{
+    width:120px;
+  }
+  .center-bold{
+    font-size: 150%;
+  }
+
+  /* ---- About Us----*/
+  .about-content .content-box .header-about p{
+    font-size:25px;
+  }
+
+  .about-content .content-box .paragraph-about p{
+    font-size: 15px;
+  }
+  .content-box img{
+    width: 300px;
+  }
+  /* ---- Contact----*/
+  .contact-content .center-header h1{
+    font-size:25px;
+  }
+  
+  .contact-content h2{
+    font-size: 20px;
+  }
+  .contact-content .contact-details h3{
+    font-size: 20px;
+  }
+  .contact-content img{
+    width: 500px;
+  }
+
+    /* -------popup---------- */
+    
+    .popup-container .popup-content{
+      height:450px;
+      left: 50%;
+      position: relative;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  
+    .popup-container .popup-content img{
+      width: 3em;
+      position:relative;
+      padding:30px 0 0 0;
+  
+    } 
+  
+    .popup-container .popup-header {
+      font-size: 1.5em;
+    }
+  
+    .popup-container .popup-text{
+      margin-left: 10px;
+      margin-right: 10px;
+      text-align: left;
+    }
+    .popup-container p{
+      font-size: 1.3em;
+    }
+    .popup-container .button {
+      border-radius: 5px; 
+      width: 100px;
+      height: 2em;
+      font-size: 15px;
+    }
+  
+}
+/* ------------------------------------------end of Ipad Resolution------------------------------------------ */
+/*                                                                                                             *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+*                                                                                                              *
+/* ----------------------------------------------Iphone X Resolution------------------------------------------ */
+@media(max-width:400px){
+
+  header {
+    height: 80px;
+  }
+
+  .topnav li {
+    float: right;
+    padding: 5px 5px;
+    list-style: none;
+  }
+  .topnav a{
+    color: rgb(245,245,245);
+    text-decoration: none;
+    font-size: 10px;
+  }
+  .logo_white img{
+    width: 80px;
+  }
+
+  .logo_dark img{
+    width:80px;
+  }
+/* -----------------------------footer-------------------------- */
+  /* Style the footer */
+  footer {
+    width: 100%;
+    height: 80px;
+    padding-top: 10px;
+  }
+  .footerlogo {
+    float:left;
+    margin:10px 0 0 -20px;
+  }
+  .footerlogo img{
+    width: 80px;
+  }
+  footer .social img{
+    padding-top: 5px;
+    margin-right: 15px;
+    width: 20px;
+  }
+  footer .social h6{
+    font-size: 10%;
+  }
+/* -----------------------------index---------------------- */
+  .container-1 {
+    background-size: cover;
+    height: 40vh; /* Relative to 1% of the height of the viewport* */
+    margin: 20px;
+  }
+  
+  .container-1 h1{
+
+    font-size:  100%;
+    top: 50%;                    
+  }
+   h2{
+    font-size:100%;
+    left: 25%;                        
+    top: 10%;                        
+  }
+  .container-1 img{
+    display:block;
+    width: 100px;
+  }
+
+  .box h1{
+    font-size: 10px;
+  }
+  .box p{
+    font-size: 10px;
+  }
+  
+  .box img, .container-3 img{
+    width:50px;
+  }
+
+  .container-2 h3{
+    border-radius: 10px; 
+    font-size: 80%;
+    width: 100px;
+    height: 40px;
+  }
+  
+  .container-3 img, .container-3 h4{
+    display:inline-flex;
+  }
+  .container-3 img{
+    margin-top:30px;
+  }
+  
+
+  h4{
+     font-size:15px;
+  }
+  span{
+    font-size:15px;
+  }
+  
+  .containerWrapper .boxGrid-2 p{
+    font-size: 10px;
+  } 
+  .center-normal{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+    
+  .center-bold{
+    font-size:15px;
+  }
+  /*------------------ End of Index------------------------- */
+  
+  
+  /*------------------- About ------------------------- */
+  .content-box img{
+    width: 300px;
+  }
+  /*------------------ End of About------------------------- */
+
+  
+  /*------------------ Contact------------------------- */
+  .contact-content {
+    text-align:left;
+    margin-left: 10%;
+  }
+  .center-header h1{
+    font-size:18px;
+  }
+  
+  .contact-content h2{
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .contact-content img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+  }
+
+  .contact-form-container label{
+    font-size: 15px;
+  }
+
+  .contact-form-container input[type=text], .contact-form-container input[type=tel], .contact-form-container textarea{
+    font-size: 15px;
+  }
+
+  /* -------popup---------- */
+  .popup-container{
+    padding-right: 20%;
+  }
+  
+  .popup-container .popup-content{
+    height:350px;
+    left: 60%;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .popup-container .popup-content img{
+    width: 2em;
+    position:relative;
+    padding:20px 0 0 0;
+
+  } 
+
+  .popup-container .popup-header {
+    font-size: 1em;
+  }
+
+  .popup-container .popup-text{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+  }
+  .popup-container p{
+    font-size: 13px;
+  }
+  .popup-container .button {
+    border-radius: 5px; 
+    width: 100px;
+    height: 2em;
+    font-size: 15px;
+  }
+
+  .contact-form-container .requiredField {
+    font-size: 15px;
+  }
+
+  /*------------------End of Contact------------------------- */
+}/* ------------------------------------- end of Iphone X Resolution--------------------------------- */
+
+
+

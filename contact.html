@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Contact Us | Mr.Coffee</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./application.css">
+  <script src="./form.js"></script>
+  <body>
+
+    <!--Navigation-->
+    <header>
+        <div class ="logo_white"><img src = "assets/full_logo_white.png" alt="White Header Logo" ></div>
+        <div class="topnav">
+          <ul>
+            <li><a href="#about">Nous contacter</a></li> 
+            <li><a href="#contact">Qui sommes-nous?</a></li>
+            <li><a href="#home">Accueil</a></li>
+          </ul>
+        </div>
+    </header>
+    <div class ="logo_dark"><img src="assets/logo_mrcoffee.png" alt = "Mrcoffee logo"></div>
+    <!--//Navigation-->
+
+   
+
+<!-------------------------------------------Main Content---------------------------------------------------------->
+
+    <div class="contact-content">
+        <div class="center-header">      
+          <h1>Dites nous tout !</h1>
+        </div>
+          <!-------------Contact Form--------------->
+          <div class="contact-form-container">
+            <form id="contact-form" action="#" >
+          
+              <label for="fname">First Name *</label><br />
+              <input type="text" id="fname" name="firstname" required minlength="3"><br />
+          
+              <label for="lname">Last Name *</label><br />
+              <input type="text" id="lname" name="lastname" required minlength="3"><br />
+
+              <label for="tel">Telephone</label><br />
+              <input type="tel" id="tel" name="telephone" pattern="^[0-9]+$"><br />
+              <p class="requiredField" id="alertTel">Field with numbers (0-9) only</p>
+
+              <label for="mail">Address mail *</label><br />
+              <input type="text" id="mail" name="mail" required pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"><br />
+              <p class="requiredField" id="alertMail">Please enter correct mail address format</p>
+          
+              <label for="message*">Message *</label><br />
+              <textarea id="msg" name="subject" placeholder="Type your message here" style="height:200px"></textarea><br />
+          
+              <input type="submit" id="submit-button" value="SEND" >
+              <p class="requiredField" id="alertEmpty">Field with (*) are required</p>
+         
+            </form>
+          </div>
+          <!-----------------//Contact Form----------------->
+
+           <div class="center-header">      
+            <h1>On vous attend !</h1>
+          </div>
+
+        <h2>Mr.Coffee</h2>
+          <div class="contact-details">
+            <h3>
+              15 place Jules Guesde<br />75006 Paris
+            </h3>
+            <h3>
+              Tel : +33 9 46 25 78 45<br />Mail : contact@mr-coffee.com
+            </h3>
+        </div>
+        <img src ="assets/map.png" alt="Map">
+
+         <!----------------------- Popup -------------------->
+        <div class="popup-container">
+          <div class="popup-content">
+            <img src="assets/logo_dark.png" alt="Dark logo">
+            <p class="popup-header">MERCI<br />Votre message a bien été envoyé !</p> 
+            <p class="popup-text">Nous essaierons d’y répondre au mieux dans les plus brefs délais.À bientot chez Mr.Coffee</p>
+            <p class="button" id="close-button">FERMER</button></p>
+          </div>
+        </div>
+          <!----------------//Popup---------------------------->
+    </div>
+
+<!-----------------------------------------------------//Main Content --------------------------------------------->
+
+
+    <!--footer-->
+    <footer>
+      <div class ="footerlogo">
+        <img src = "assets/full_logo_white.png" alt="White Header Logo" >
+      </div>
+      
+      <div class ="social">
+        <h6>Suivez nous sur les réseaux sociaux !</h6>
+        <img src = "assets/logo_linkedin.png"  alt="Linkedin Logo" > 
+        <img src = "assets/logo_twitter.png" alt="Twitter Logo" > 
+        <img src = "assets/logo_facebook.png" alt="Facebook Logo" > 
+      </div>
+    </footer>
+    <!--//footer-->
+
+  </body>
+</html>
